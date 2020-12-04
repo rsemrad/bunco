@@ -11,7 +11,7 @@ print("Player 1 rolled" +str(player1_dice))
 print("Player 2 rolled" +str(player2_dice))
 
 if sum(player1_dice) == sum(player2_dice):
-    print("Draw")
+    print("Draw...")
 elif sum(player1_dice) > sum(player2_dice):
     print("Player 2 wins")
 else:
